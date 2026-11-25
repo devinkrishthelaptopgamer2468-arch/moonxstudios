@@ -1,8 +1,9 @@
 # MoonXstudios website
 
 A static site with plain HTML, CSS and JavaScript. It has no build step and no dependencies apart from Google Fonts.
-The repo root is the website. It's deployed with **GitHub Pages** from the `main` branch, and
-every push to `main` redeploys automatically within a minute or two.
+The repo root is the website. **Main address: https://moonxstudios.vercel.app**
+
+Every push to `main` redeploys automatically, within a minute or two, on both Vercel and GitHub Pages.
 
 ## Files
 
@@ -19,12 +20,11 @@ every push to `main` redeploys automatically within a minute or two.
 
 ## Deploy
 
-**GitHub Pages (current setup)**
-Repo → Settings → Pages → *Deploy from a branch* → `main` / `(root)`.
-Live at **https://devinkrishthelaptopgamer2468-arch.github.io/moonxstudios/**
-`.nojekyll` tells GitHub to serve the files as-is.
+**Vercel (main):** https://moonxstudios.vercel.app
+Project `moonxstudios`, connected to this GitHub repo. Framework preset *Other*, no build command, root `./`.
 
-**Elsewhere:** the repo also works unchanged on Netlify or Vercel. Import the repo, with no build command and the root folder as output.
+**GitHub Pages (backup):** https://devinkrishthelaptopgamer2468-arch.github.io/moonxstudios/
+Repo → Settings → Pages → *Deploy from a branch* → `main` / `(root)`. `.nojekyll` tells GitHub to serve the files as-is.
 
 ## Moving to a custom domain later
 
