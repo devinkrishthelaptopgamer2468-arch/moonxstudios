@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoonXstudios — Social Media Manager</title>
+  <meta name="description" content="MoonXstudios — strategic social media management and digital branding by Ryan Rithish." />
+  <meta name="theme-color" content="#242220" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Icons -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <!-- Social share preview (WhatsApp, Instagram DMs, LinkedIn, X…)
+       After deploying, replace og-image.jpg below with the full URL, e.g. https://your-domain.com/og-image.jpg -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MoonXstudios" />
+  <meta property="og:title" content="MoonXstudios — Social Media Manager" />
+  <meta property="og:description" content="Strategic social media management and digital branding for businesses." />
+  <meta property="og:image" content="og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;700;800&family=Yellowtail&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- If JavaScript is off or fails, show everything instead of a blank page -->
+  <noscript>
+    <style>
+      body.is-loading { overflow: auto; }
+      .loader, .cursor, .cursor-dot { display: none !important; }
+      .reveal-up, .reveal-scale { opacity: 1 !important; transform: none !important; }
+      .reveal-mask > span, .split .ch > i { transform: none !important; }
+      .reveal-clip::after { display: none; }
+      .arrow--line { transform: scaleX(1); }
+      body, a, button { cursor: auto; }
+    </style>
+  </noscript>
+</head>
+<body class="is-loading">
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__word">
+      <span>M</span><span>O</span><span>O</span><span>N</span><span>X</span>
+    </div>
+    <div class="loader__bar"><i></i></div>
+    <div class="loader__count">0</div>
+  </div>
+
+  <!-- Custom cursor + grain -->
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+
+  <!-- Nav -->
+  <header class="nav">
+    <a href="#top" class="nav__brand" data-magnetic>MoonXstudios</a>
+    <nav class="nav__links">
+      <a href="#intro">Intro</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" aria-hidden="true">
+    <a href="#intro">Introduction</a>
+    <a href="#about">About me</a>
+    <a href="#skills">Personal skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#project">First project</a>
+    <a href="#contact">Thank you</a>
+    <a href="https://www.instagram.com/moonxstudios" target="_blank" rel="noopener" class="menu__ig">@moonxstudios ↗</a>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__meta hero__meta--tl reveal-up">MoonXstudios</div>
+      <a href="#contents" class="hero__arrow reveal-up" aria-label="Scroll down"><span class="arrow"></span></a>
+
+      <h1 class="hero__title" aria-label="Portfolio">
+        <span class="split" data-split>PORTFOLIO</span>
+      </h1>
+
+      <div class="hero__meta hero__meta--bl reveal-up">Social media manager</div>
+      <div class="hero__meta hero__meta--br reveal-up">
+        Your digital helper
+        <small class="scramble" data-scramble="RY4NRITHIXH">RY4NRITHIXH</small>
+      </div>
+
+      <div class="hero__scroll"><span>Scroll</span><i></i></div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Social Media</span><b>✦</b><span>Editing</span><b>✦</b><span>Videography</span><b>✦</b><span>Branding</span><b>✦</b><span>Strategy</span><b>✦</b>
+        <span>Social Media</span><b>✦</b><span>Editing</span><b>✦</b><span>Videography</span><b>✦</b><span>Branding</span><b>✦</b><span>Strategy</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- TABLE OF CONTENTS -->
+    <section class="section toc" id="contents">
+      <div class="section__head">
+        <span class="label">MoonXstudios</span>
+        <span class="arrow arrow--line"></span>
+      </div>
+      <h2 class="display reveal-mask"><span>Table of contents</span></h2>
+      <div class="pills">
+        <a href="#intro" class="pill" data-magnetic>Introduction</a>
+        <a href="#about" class="pill" data-magnetic>About me</a>
+        <a href="#skills" class="pill" data-magnetic>Personal skills</a>
+        <a href="#experience" class="pill" data-magnetic>Experience</a>
+        <a href="#project" class="pill" data-magnetic>First project</a>
+        <a href="#contact" class="pill" data-magnetic>Thank you</a>
+      </div>
+      <div class="toc__figure media cutout parallax" data-speed="-0.08" style="--img:url('assets/hero-arms.png')">
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section intro" id="intro">
+      <div class="section__head">
+        <span class="label">MoonXstudios</span>
+        <span class="arrow arrow--line"></span>
+      </div>
+      <div class="intro__banner media tilt reveal-scale" style="--img:url('assets/intro-camera.jpg')">
+      </div>
+      <h2 class="display intro__title reveal-mask"><span>Introduction</span></h2>
+      <div class="intro__text">
+        <p class="reveal-up">I'm a Social Media Manager focused on building strong, professional digital presences for brands.</p>
+        <p class="reveal-up">I create strategic content that increases engagement, visibility, and audience growth.</p>
+        <p class="reveal-up">My goal is to turn social media into a valuable asset for your business.</p>
+      </div>
+      <div class="section__foot">
+        <span>Social Media Manager</span><span>Your digital helper</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section__head">
+        <span class="label">MoonXstudios</span>
+        <span class="arrow arrow--line"></span>
+      </div>
+      <div class="about__grid">
+        <div class="about__copy">
+          <span class="script reveal-up">About me</span>
+          <h2 class="display about__name reveal-mask"><span>Ryan Rithish</span></h2>
+          <p class="about__role reveal-up">Founder<br />MoonXstudios</p>
+          <p class="reveal-up">Hi, I'm Ryan Rithish, Founder of MoonXstudios. We provide strategic social media management and digital branding solutions for businesses.</p>
+          <p class="reveal-up">With a dedicated team of experienced professionals, we help brands strengthen their online presence and drive meaningful growth.</p>
+          <div class="stats">
+            <div class="stat reveal-up"><b data-count="3">0</b><span>Launch phases</span></div>
+            <div class="stat reveal-up"><b data-count="2">0</b><span>Core skills</span></div>
+            <div class="stat reveal-up"><b data-count="100" data-suffix="%">0</b><span>Commitment</span></div>
+          </div>
+        </div>
+        <div class="about__photo media tilt reveal-clip" style="--img:url('assets/ryan-portrait.jpg')">
+        </div>
+      </div>
+      <div class="section__foot">
+        <span>Social Media Manager</span><span>Your digital helper</span>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="section__head">
+        <span class="label">MoonXstudios</span>
+        <span class="arrow arrow--line"></span>
+      </div>
+      <h2 class="display reveal-mask center"><span>Personal skills</span></h2>
+      <div class="skills__grid">
+        <article class="skill tilt reveal-up">
+          <div class="skill__img media" style="--img:url('assets/skill-editing.jpg')"></div>
+          <div class="skill__body">
+            <span class="skill__num">01</span>
+            <h3>Editing</h3>
+            <p>At MoonXstudios, I handle creative editing to turn ideas into engaging social media content. I focus on professional visuals, reels, and branded content that capture attention and strengthen our clients' online presence.</p>
+          </div>
+        </article>
+        <article class="skill skill--offset tilt reveal-up">
+          <div class="skill__img media" style="--img:url('assets/skill-video.jpg')"></div>
+          <div class="skill__body">
+            <span class="skill__num">02</span>
+            <h3>Videography</h3>
+            <p>At MoonXstudios, I handle cinematography to create visually compelling content for brands. I focus on professional camera work, creative shots, and storytelling that bring our clients' ideas to life.</p>
+          </div>
+        </article>
+      </div>
+      <div class="section__foot">
+        <span>Social Media Manager</span><span>Your digital helper</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE (horizontal pinned scroll) -->
+    <section class="experience" id="experience">
+      <div class="experience__pin">
+        <div class="section__head experience__head">
+          <span class="label">MoonXstudios</span>
+          <span class="arrow arrow--line"></span>
+        </div>
+        <div class="experience__track">
+          <div class="exp-intro">
+            <h2 class="display">Work<br />Experience</h2>
+            <p>Scroll to walk through the journey →</p>
+          </div>
+          <article class="exp-card">
+            <span class="exp-card__date">2026 — July</span>
+            <h3>Startup Phase</h3>
+            <p>We're building the foundation of our social media management business by developing our team, brand, and strategies. Our focus is to create a strong system that delivers results for our clients.</p>
+            <span class="exp-card__big">01</span>
+          </article>
+          <article class="exp-card">
+            <span class="exp-card__date">2026 — August</span>
+            <h3>Pre-Launch Phase</h3>
+            <p>We're preparing for launch by finalizing our team, services, branding, and client strategies. Our focus is to ensure MoonXstudios is fully prepared to deliver professional, results-driven social media solutions.</p>
+            <span class="exp-card__big">02</span>
+          </article>
+          <article class="exp-card">
+            <span class="exp-card__date">2026 — September</span>
+            <h3>Market Entry Phase</h3>
+            <p>We're ready to launch MoonXstudios and begin working with businesses. Our focus is on delivering professional social media solutions, building strong client relationships, and generating measurable results.</p>
+            <span class="exp-card__big">03</span>
+          </article>
+          <div class="exp-card exp-card--img media" style="--img:url('assets/experience-laptop.jpg')">
+          </div>
+        </div>
+        <div class="experience__line"><i></i></div>
+      </div>
+    </section>
+
+    <!-- FIRST PROJECT -->
+    <section class="section project" id="project">
+      <div class="section__head">
+        <span class="label">MoonXstudios</span>
+        <span class="arrow arrow--line"></span>
+      </div>
+      <div class="project__grid">
+        <div class="project__photo media reveal-clip" style="--img:url('assets/first-project.jpg')">
+        </div>
+        <div class="project__copy">
+          <h2 class="display reveal-mask"><span>First project</span></h2>
+          <p class="reveal-up">Getting my first client was a proud and unforgettable moment. It made all the planning, hard work, and late nights feel worthwhile. It was the moment I truly felt that MoonXstudios was becoming a real business.</p>
+          <a href="#contact" class="pill pill--solid reveal-up" data-magnetic>Work with us <span class="arrow arrow--sm"></span></a>
+        </div>
+      </div>
+      <div class="section__foot">
+        <span>Social Media Manager</span><span>Your digital helper</span>
+      </div>
+    </section>
+
+    <!-- THANK YOU -->
+    <section class="thanks" id="contact">
+      <div class="section__head">
+        <span class="label">MoonXstudios</span>
+        <span class="arrow arrow--line arrow--back"></span>
+      </div>
+      <div class="thanks__stage">
+        <h2 class="thanks__word thanks__word--fill">THANK YOU</h2>
+        <div class="thanks__person media cutout" style="--img:url('assets/thank-you.png')">
+        </div>
+        <h2 class="thanks__word thanks__word--outline" aria-hidden="true">THANK YOU</h2>
+      </div>
+      <div class="thanks__cta">
+        <a href="https://ig.me/m/moonxstudios" class="pill pill--solid" target="_blank" rel="noopener" data-magnetic>Let's talk <span class="arrow arrow--sm"></span></a>
+        <a href="https://www.instagram.com/moonxstudios" class="pill" target="_blank" rel="noopener" data-magnetic>Instagram</a>
+      </div>
+      <div class="section__foot">
+        <span>Social Media Manager</span><span>Your digital helper</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__big" aria-hidden="true">MOONXSTUDIOS</div>
+    <div class="footer__row">
+      <span>© <span id="year"></span> MoonXstudios</span>
+      <a href="https://www.instagram.com/moonxstudios" target="_blank" rel="noopener">@moonxstudios</a>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

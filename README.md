@@ -1,0 +1,55 @@
+# MoonXstudios website
+
+A static site with plain HTML, CSS and JavaScript. It has no build step and no dependencies apart from Google Fonts.
+The repo root is the website. It's deployed with **GitHub Pages** from the `main` branch, and
+every push to `main` redeploys automatically within a minute or two.
+
+## Files
+
+| File | What it is |
+|---|---|
+| `index.html` | The page: all sections and text |
+| `style.css` | Theme, layout and CSS animations |
+| `main.js` | Loader, smooth scroll, cursor and scroll effects |
+| `404.html` | "Page not found" page (Netlify, Vercel and GitHub Pages pick it up automatically) |
+| `assets/` | Photos |
+| `favicon.svg`, `apple-touch-icon.png` | Browser-tab and home-screen icons |
+| `og-image.jpg` | Preview image shown when the link is shared |
+| `robots.txt` | Lets search engines index the site |
+
+## Deploy
+
+**GitHub Pages (current setup)**
+Repo → Settings → Pages → *Deploy from a branch* → `main` / `(root)`.
+The site is served at `https://<username>.github.io/moonxstudios/`.
+`.nojekyll` tells GitHub to serve the files as-is.
+
+**Elsewhere:** the repo also works unchanged on Netlify or Vercel. Import the repo, with no build command and the root folder as output.
+
+## After deploying
+
+1. In `index.html`, change `<meta property="og:image" content="og-image.jpg" />` to the full URL,
+   e.g. `https://your-domain.com/og-image.jpg`. WhatsApp, LinkedIn and others need a full URL to show the preview.
+2. Optionally add `<link rel="canonical" href="https://your-domain.com/" />` in the `<head>`.
+
+## Changing photos
+
+Replace a file in `assets/` and keep the same name:
+
+| File | Section |
+|---|---|
+| `hero-arms.png` | Table of contents (transparent cut-out) |
+| `intro-camera.jpg` | Introduction banner |
+| `ryan-portrait.jpg` | About me (shown black & white) |
+| `skill-editing.jpg` | Editing card |
+| `skill-video.jpg` | Videography card |
+| `experience-laptop.jpg` | Work Experience, last card |
+| `first-project.jpg` | First Project |
+| `thank-you.png` | Thank You (transparent cut-out) |
+
+Keep photos at about 1600px wide or less and under ~300 KB each so the site stays fast.
+
+## Contact links
+
+The "Let's talk" button opens an Instagram DM (`https://ig.me/m/moonxstudios`).
+To use email instead, change it to `mailto:you@example.com` in `index.html`.
