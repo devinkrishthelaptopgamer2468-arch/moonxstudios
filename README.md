@@ -21,16 +21,15 @@ every push to `main` redeploys automatically within a minute or two.
 
 **GitHub Pages (current setup)**
 Repo → Settings → Pages → *Deploy from a branch* → `main` / `(root)`.
-The site is served at `https://<username>.github.io/moonxstudios/`.
+Live at **https://devinkrishthelaptopgamer2468-arch.github.io/moonxstudios/**
 `.nojekyll` tells GitHub to serve the files as-is.
 
 **Elsewhere:** the repo also works unchanged on Netlify or Vercel. Import the repo, with no build command and the root folder as output.
 
-## After deploying
+## Moving to a custom domain later
 
-1. In `index.html`, change `<meta property="og:image" content="og-image.jpg" />` to the full URL,
-   e.g. `https://your-domain.com/og-image.jpg`. WhatsApp, LinkedIn and others need a full URL to show the preview.
-2. Optionally add `<link rel="canonical" href="https://your-domain.com/" />` in the `<head>`.
+In `index.html`, update the `canonical`, `og:url` and `og:image` URLs in the `<head>` to the new domain.
+WhatsApp, LinkedIn and others need the full URL to show the share preview.
 
 ## Changing photos
 
